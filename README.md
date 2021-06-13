@@ -50,7 +50,7 @@ Obs.: Não se preocupe com os pontos extras, faça-os se você se sentir confort
 - Você pode usar a API do *[OpenWeatherMaps](https://openweathermap.org)* para buscar dados de temperatura;
 - Não é necessário ter um banco de dados hospedado, você pode usar SQL Server InMemory ou rodar o sql server em um container (neste caso, deixe documentado no readme.md como executar os dois containers);
 - Se tiver dificuldades em usar o SQL Server InMemory, pode persistir de qualquer outra forma que se sentir confortável;
-- Certifique-se que sua imagem está funcionando perfeitamente com um simples: `docker run -d --name desafio-csharp-easy -port 5000:5000 [seu_docker_hub]/desafio-siagri`, isso te dará pontos extras;
+- Certifique-se que sua imagem está funcionando perfeitamente com um simples: `docker run -d --name desafio-csharp -port 5000:5000 [seu_docker_hub]/desafio-csharp`, isso te dará pontos extras;
 
 ## Recomendações
 
